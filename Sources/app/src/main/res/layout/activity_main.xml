@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context="com.mohamed_alami.multilimnote.activities.MainActivity">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="369dp" app:srcCompat="@drawable/logo"
+            android:id="@+id/imageView"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" app:layout_constraintHorizontal_bias="0.467"
+            tools:layout_constraintRight_creator="1" tools:layout_constraintLeft_creator="1"/>
+
+   <!-- <com.google.android.gms.common.SignInButton
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/googleBtn" tools:layout_constraintTop_creator="1" android:layout_marginStart="0dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" tools:layout_constraintLeft_creator="1"
+            app:layout_constraintLeft_toLeftOf="@+id/imageView" android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"/>-->
+
+
+    <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp" tools:layout_constraintTop_creator="1"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="22dp"
+            android:text="Utilisateur"
+            android:textColor="#303030"
+            android:background="@android:color/white"
+            android:visibility="invisible"
+            android:id="@+id/userBtn" app:layout_constraintRight_toRightOf="parent"/>
+
+    <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp" tools:layout_constraintTop_creator="1"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="76dp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"
+            android:text="Se Déconnecter"
+            android:visibility="invisible"
+            android:id="@+id/logoutBtn" app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+            android:text="Vous êtes connecté en tant que :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            tools:layout_constraintTop_creator="1"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:id="@+id/loggedtextView"
+            android:layout_marginTop="1dp"
+            android:visibility="invisible"
+            app:layout_constraintRight_toRightOf="parent" app:layout_constraintHorizontal_bias="0.5"/>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "324746708610",
+    "firebase_url": "https://multilimnote.firebaseio.com",
+    "project_id": "multilimnote",
+    "storage_bucket": "multilimnote.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324746708610:android:503fe8d77f9abc47",
+        "android_client_info": {
+          "package_name": "com.mohamed_alami.multilimnote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324746708610-a024j5dj2uuc4aieo56qaok3h72ff3ae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTdVWlh4sGdOGwHo14u50ysdW2Rqr3h8k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

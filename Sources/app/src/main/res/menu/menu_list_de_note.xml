@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.mohamed_alami.multilimnote.activities.ListeDeNoteActivity">
+
+    <item android:id="@+id/action_sortby"
+          android:icon="@drawable/sortby"
+          android:title="Trier Par..."
+          app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_logout"
+          android:icon="@drawable/logout"
+          android:title="Se Déconnecter"
+          app:showAsAction="ifRoom"/>
+</menu>
